@@ -8,6 +8,7 @@ body {
 
 .title {
 	display: block;
+	width: 100%;
 	margin: auto;
 }
 
@@ -16,11 +17,6 @@ body {
 	padding: 2px 0;
 	background: white;
 	margin: 5px 0;
-}
-
-p {
-	color: red;
-	text-decoration: underline;
 }
 
 .videoWrapper {
@@ -35,4 +31,23 @@ p {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.container {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.hide {
+	display: none;
+}
+
+.button {
+	color: white;
+	background-color: #477F9A;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
