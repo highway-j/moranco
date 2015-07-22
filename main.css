@@ -39,15 +39,17 @@ body {
 	margin-bottom: 25px;
 }
 
-.hide {
-	display: none;
-}
-
 .button {
-	color: white;
-	background-color: #477F9A;
+	color: #7C7C7C;
+	background-color: #CCC;
 	padding: 10px 20px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
+}
+
+.red {
+	color: white;
+	background-color: #DB0626;
+	border-radius: 4px;
 }
